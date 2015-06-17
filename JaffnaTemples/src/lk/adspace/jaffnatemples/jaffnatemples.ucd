@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="jaffnatemples" size="2395,2945" id="lk.adspace.jaffnatemples" metadata="uml2-1.0" initialized="true" scrolledY="6" tag="10" key="32303037303533312D3130204A6166666E6154656D706C6573">
+  <children xsi:type="editmodel:ClassEditModel" name="Main" location="665,320" size="165,126" id="lk.adspace.jaffnatemples/Main" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Search" location="440,150" size="141,29" id="lk.adspace.jaffnatemples/Search" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="lk.adspace.jaffnatemples/Search_result@search_result+lk.adspace.jaffnatemples/Search@search" source="//@children.1" target="//@children.2" targetEnd="//@children.1/@sourceConnections.0/@children.1" label="//@children.1/@sourceConnections.0/@children.2" sourceEnd="//@children.1/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="search" location="74,0" id="lk.adspace.jaffnatemples/Search_result@search_result+lk.adspace.jaffnatemples/Search@search|lk.adspace.jaffnatemples/Search#search" attachSource="true" multiplicityLabel="//@children.1/@sourceConnections.0/@children.0/@children.1" roleLabel="//@children.1/@sourceConnections.0/@children.0/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - search" location="521,129" size="44,14" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="489,129" size="18,14" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="search_result" location="64,29" id="lk.adspace.jaffnatemples/Search_result@search_result+lk.adspace.jaffnatemples/Search@search|lk.adspace.jaffnatemples/Search_result#search_result" multiplicityLabel="//@children.1/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.1/@sourceConnections.0/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - search_result" location="521,96" size="77,14" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="489,96" size="18,14" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@sourceConnections.0" name="Search_result" location="450,60" size="129,29" id="lk.adspace.jaffnatemples/Search_result" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="lk.adspace.jaffnatemples/Dbhandler@dbhandler+lk.adspace.jaffnatemples/Search_result@search_result" source="//@children.2" target="//@children.6" targetEnd="//@children.2/@sourceConnections.0/@children.1" label="//@children.2/@sourceConnections.0/@children.2" sourceEnd="//@children.2/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="search_result" location="0,14" id="lk.adspace.jaffnatemples/Dbhandler@dbhandler+lk.adspace.jaffnatemples/Search_result@search_result|lk.adspace.jaffnatemples/Search_result#search_result" attachSource="true" multiplicityLabel="//@children.2/@sourceConnections.0/@children.0/@children.1" roleLabel="//@children.2/@sourceConnections.0/@children.0/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - search_result" location="366,53" size="77,14" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="425,81" size="18,14" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="dbhandler" location="137,62" id="lk.adspace.jaffnatemples/Dbhandler@dbhandler+lk.adspace.jaffnatemples/Search_result@search_result|lk.adspace.jaffnatemples/Dbhandler#dbhandler" multiplicityLabel="//@children.2/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.2/@sourceConnections.0/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - dbhandler" location="219,53" size="58,14" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="219,81" size="18,14" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.5/@sourceConnections.2" name="Viewmap" location="664,50" size="176,211" id="lk.adspace.jaffnatemples/Viewmap" runTimeClassModel="displaymarkers(DDLjava.lang.String;),onCreateOptionsMenu(Landroid.view.Menu;),pOLYGON_POINTS,onConnectionFailed(Lcom.google.android.gms.common.ConnectionResult;),servicesOK(),markers,onDisconnected(),drawcircle(I),onConnected(Landroid.os.Bundle;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="153,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="markers" id="lk.adspace.jaffnatemples/Viewmap#markers"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="pOLYGON_POINTS" id="lk.adspace.jaffnatemples/Viewmap#pOLYGON_POINTS"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="137,126">
+      <children xsi:type="editmodel:MethodEditModel" name="displaymarkers" id="lk.adspace.jaffnatemples/Viewmap#displaymarkers(DDLjava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="drawcircle" id="lk.adspace.jaffnatemples/Viewmap#drawcircle(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onConnected" id="lk.adspace.jaffnatemples/Viewmap#onConnected(Landroid.os.Bundle;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onConnectionFailed" id="lk.adspace.jaffnatemples/Viewmap#onConnectionFailed(Lcom.google.android.gms.common.ConnectionResult;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onCreateOptionsMenu" id="lk.adspace.jaffnatemples/Viewmap#onCreateOptionsMenu(Landroid.view.Menu;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onDisconnected" id="lk.adspace.jaffnatemples/Viewmap#onDisconnected()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="servicesOK" id="lk.adspace.jaffnatemples/Viewmap#servicesOK()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.6/@sourceConnections.0 //@children.5/@children.2/@children.0/@sourceConnections.1" name="kovil" location="67,270" size="145,877" id="lk.adspace.jaffnatemples/kovil" runTimeClassModel="_latitude,kovil(ILjava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;),_city,settempletype(Ljava.lang.String;),_year_build,getimage_name(),getaddress(),_address,setwebsite(Ljava.lang.String;),getDescription(),_website,setcity(Ljava.lang.String;),_image_name,gettelephone2(),_id,kovil(),gettemplename(),getyear_build(),getemail(),setemail(Ljava.lang.String;),settemplename(Ljava.lang.String;),gettelephone1(),_Description,kovil(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;),setimage_name(Ljava.lang.String;),settelephone1(Ljava.lang.String;),getwebsite(),getlatitude(),getID(),_email,_temple_type,setyear_build(Ljava.lang.String;),setDescription(Ljava.lang.String;),setlongitude(Ljava.lang.String;),_temple_name,temple_name,getlongitude(),setlatitude(Ljava.lang.String;),setID(I),getcity(),settelephone2(Ljava.lang.String;),_longitude,setaddress(Ljava.lang.String;),_telephone2,gettempletype(),_telephone1">
+    <children xsi:type="editmodel:CompartmentEditModel" size="122,270">
+      <children xsi:type="editmodel:AttributeEditModel" name="_Description" id="lk.adspace.jaffnatemples/kovil#_Description"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="_address" id="lk.adspace.jaffnatemples/kovil#_address"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="_city" id="lk.adspace.jaffnatemples/kovil#_city"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="_email" id="lk.adspace.jaffnatemples/kovil#_email"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="_id" id="lk.adspace.jaffnatemples/kovil#_id"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="_image_name" id="lk.adspace.jaffnatemples/kovil#_image_name"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="_latitude" id="lk.adspace.jaffnatemples/kovil#_latitude"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="_longitude" id="lk.adspace.jaffnatemples/kovil#_longitude"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="_telephone1" id="lk.adspace.jaffnatemples/kovil#_telephone1"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="_telephone2" id="lk.adspace.jaffnatemples/kovil#_telephone2"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="_temple_name" id="lk.adspace.jaffnatemples/kovil#_temple_name"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="_temple_type" id="lk.adspace.jaffnatemples/kovil#_temple_type"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="_website" id="lk.adspace.jaffnatemples/kovil#_website"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="_year_build" id="lk.adspace.jaffnatemples/kovil#_year_build"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="temple_name" id="lk.adspace.jaffnatemples/kovil#temple_name"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="105,558">
+      <children xsi:type="editmodel:MethodEditModel" name="getDescription" id="lk.adspace.jaffnatemples/kovil#getDescription()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getID" id="lk.adspace.jaffnatemples/kovil#getID()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getaddress" id="lk.adspace.jaffnatemples/kovil#getaddress()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getcity" id="lk.adspace.jaffnatemples/kovil#getcity()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getemail" id="lk.adspace.jaffnatemples/kovil#getemail()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getimage_name" id="lk.adspace.jaffnatemples/kovil#getimage_name()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getlatitude" id="lk.adspace.jaffnatemples/kovil#getlatitude()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getlongitude" id="lk.adspace.jaffnatemples/kovil#getlongitude()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="gettelephone1" id="lk.adspace.jaffnatemples/kovil#gettelephone1()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="gettelephone2" id="lk.adspace.jaffnatemples/kovil#gettelephone2()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="gettemplename" id="lk.adspace.jaffnatemples/kovil#gettemplename()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="gettempletype" id="lk.adspace.jaffnatemples/kovil#gettempletype()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getwebsite" id="lk.adspace.jaffnatemples/kovil#getwebsite()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getyear_build" id="lk.adspace.jaffnatemples/kovil#getyear_build()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="kovil" id="lk.adspace.jaffnatemples/kovil#kovil(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="kovil" id="lk.adspace.jaffnatemples/kovil#kovil()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="kovil" id="lk.adspace.jaffnatemples/kovil#kovil(ILjava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setDescription" id="lk.adspace.jaffnatemples/kovil#setDescription(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setID" id="lk.adspace.jaffnatemples/kovil#setID(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setaddress" id="lk.adspace.jaffnatemples/kovil#setaddress(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setcity" id="lk.adspace.jaffnatemples/kovil#setcity(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setemail" id="lk.adspace.jaffnatemples/kovil#setemail(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setimage_name" id="lk.adspace.jaffnatemples/kovil#setimage_name(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setlatitude" id="lk.adspace.jaffnatemples/kovil#setlatitude(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setlongitude" id="lk.adspace.jaffnatemples/kovil#setlongitude(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="settelephone1" id="lk.adspace.jaffnatemples/kovil#settelephone1(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="settelephone2" id="lk.adspace.jaffnatemples/kovil#settelephone2(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="settemplename" id="lk.adspace.jaffnatemples/kovil#settemplename(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="settempletype" id="lk.adspace.jaffnatemples/kovil#settempletype(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setwebsite" id="lk.adspace.jaffnatemples/kovil#setwebsite(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setyear_build" id="lk.adspace.jaffnatemples/kovil#setyear_build(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Db_results" location="399,222" size="215,323" id="lk.adspace.jaffnatemples/Db_results" runTimeClassModel="onCreateOptionsMenu(Landroid.view.Menu;),lk.adspace.jaffnatemples.Db_results.Temple_Adapter,temple_data">
+    <children xsi:type="editmodel:CompartmentEditModel" size="160,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="temple_data" id="lk.adspace.jaffnatemples/Db_results#temple_data"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="137,18">
+      <children xsi:type="editmodel:MethodEditModel" name="onCreateOptionsMenu" id="lk.adspace.jaffnatemples/Db_results#onCreateOptionsMenu(Landroid.view.Menu;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="155,228">
+      <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.5/@sourceConnections.1" name="Temple_Adapter" location="801,1360" size="155,226" id="lk.adspace.jaffnatemples/Db_results$Temple_Adapter" runTimeClassModel="layoutResourceId,getView(ILandroid.view.View;Landroid.view.ViewGroup;),Temple_Adapter(Landroid.content.Context;ILjava.util.ArrayList;),mInfalter,lk.adspace.jaffnatemples.Db_results.Temple_Adapter.ViewHolder,data,activity">
+        <children xsi:type="editmodel:CompartmentEditModel" size="132,72">
+          <children xsi:type="editmodel:AttributeEditModel" name="activity" id="lk.adspace.jaffnatemples/Db_results$Temple_Adapter#activity"/>
+          <children xsi:type="editmodel:AttributeEditModel" name="data" id="lk.adspace.jaffnatemples/Db_results$Temple_Adapter#data"/>
+          <children xsi:type="editmodel:AttributeEditModel" name="layoutResourceId" id="lk.adspace.jaffnatemples/Db_results$Temple_Adapter#layoutResourceId"/>
+          <children xsi:type="editmodel:AttributeEditModel" name="mInfalter" id="lk.adspace.jaffnatemples/Db_results$Temple_Adapter#mInfalter"/>
+        </children>
+        <children xsi:type="editmodel:CompartmentEditModel" size="108,36">
+          <children xsi:type="editmodel:MethodEditModel" name="Temple_Adapter" id="lk.adspace.jaffnatemples/Db_results$Temple_Adapter#Temple_Adapter(Landroid.content.Context;ILjava.util.ArrayList;)"/>
+          <children xsi:type="editmodel:MethodEditModel" name="getView" id="lk.adspace.jaffnatemples/Db_results$Temple_Adapter#getView(ILandroid.view.View;Landroid.view.ViewGroup;)"/>
+        </children>
+        <children xsi:type="editmodel:CompartmentEditModel" size="116,59">
+          <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.5/@children.2/@children.0/@sourceConnections.0" name="ViewHolder" location="475,610" size="116,57" id="lk.adspace.jaffnatemples/Db_results$Temple_Adapter$ViewHolder" runTimeClassModel="tv">
+            <children xsi:type="editmodel:CompartmentEditModel" size="80,18">
+              <children xsi:type="editmodel:AttributeEditModel" name="tv" id="lk.adspace.jaffnatemples/Db_results$Temple_Adapter$ViewHolder#tv"/>
+            </children>
+            <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+            <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+            <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+          </children>
+        </children>
+        <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="lk.adspace.jaffnatemples/Db_results$Temple_Adapter$ViewHolder@holder+lk.adspace.jaffnatemples/Db_results$Temple_Adapter@" source="//@children.5/@children.2/@children.0" target="//@children.5/@children.2/@children.0/@children.2/@children.0" targetEnd="//@children.5/@children.2/@children.0/@sourceConnections.0/@children.2" label="//@children.5/@children.2/@children.0/@sourceConnections.0/@children.0" sourceEnd="//@children.5/@children.2/@children.0/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+          <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+          <children xsi:type="editmodel:AssociationEndEditModel" location="155,216" id="lk.adspace.jaffnatemples/Db_results$Temple_Adapter$ViewHolder@holder+lk.adspace.jaffnatemples/Db_results$Temple_Adapter@|lk.adspace.jaffnatemples/Db_results$Temple_Adapter#" attachSource="true" roleLabel="//@children.5/@children.2/@children.0/@sourceConnections.0/@children.1/@children.0">
+            <children xsi:type="editmodel:LabelEditModel" location="557,542" size="0,14" anchorKind="FirstPart"/>
+          </children>
+          <children xsi:type="editmodel:AssociationEndEditModel" name="holder" location="10,0" id="lk.adspace.jaffnatemples/Db_results$Temple_Adapter$ViewHolder@holder+lk.adspace.jaffnatemples/Db_results$Temple_Adapter@|lk.adspace.jaffnatemples/Db_results$Temple_Adapter$ViewHolder#holder" multiplicityLabel="//@children.5/@children.2/@children.0/@sourceConnections.0/@children.2/@children.1" roleLabel="//@children.5/@children.2/@children.0/@sourceConnections.0/@children.2/@children.0" navigable="true">
+            <children xsi:type="editmodel:LabelEditModel" name=" ~ holder" location="436,447" size="42,14" anchorKind="LastPart"/>
+            <children xsi:type="editmodel:LabelEditModel" name="0..1" location="404,447" size="18,14" anchorKind="LastPart"/>
+          </children>
+        </sourceConnections>
+        <sourceConnections xsi:type="editmodel:AssociationEditModel" id="lk.adspace.jaffnatemples/kovil@user+lk.adspace.jaffnatemples/Db_results$Temple_Adapter@" source="//@children.5/@children.2/@children.0" target="//@children.4" targetEnd="//@children.5/@children.2/@children.0/@sourceConnections.1/@children.2" label="//@children.5/@children.2/@children.0/@sourceConnections.1/@children.0" sourceEnd="//@children.5/@children.2/@children.0/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+          <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+          <children xsi:type="editmodel:AssociationEndEditModel" location="0,10" id="lk.adspace.jaffnatemples/kovil@user+lk.adspace.jaffnatemples/Db_results$Temple_Adapter@|lk.adspace.jaffnatemples/Db_results$Temple_Adapter#" attachSource="true" roleLabel="//@children.5/@children.2/@children.0/@sourceConnections.1/@children.1/@children.0">
+            <children xsi:type="editmodel:LabelEditModel" location="402,298" size="0,14" anchorKind="FirstPart"/>
+          </children>
+          <children xsi:type="editmodel:AssociationEndEditModel" name="user" location="145,168" id="lk.adspace.jaffnatemples/kovil@user+lk.adspace.jaffnatemples/Db_results$Temple_Adapter@|lk.adspace.jaffnatemples/kovil#user" multiplicityLabel="//@children.5/@children.2/@children.0/@sourceConnections.1/@children.2/@children.1" roleLabel="//@children.5/@children.2/@children.0/@sourceConnections.1/@children.2/@children.0" navigable="true">
+            <children xsi:type="editmodel:LabelEditModel" name=" ~ user" location="219,445" size="34,14" anchorKind="LastPart"/>
+            <children xsi:type="editmodel:LabelEditModel" name="0..1" location="219,417" size="18,14" anchorKind="LastPart"/>
+          </children>
+        </sourceConnections>
+        <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+      </children>
+    </children>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="lk.adspace.jaffnatemples/Dbhandler@dbhand+lk.adspace.jaffnatemples/Db_results@" source="//@children.5" target="//@children.6" targetEnd="//@children.5/@sourceConnections.0/@children.2" label="//@children.5/@sourceConnections.0/@children.0" sourceEnd="//@children.5/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,0" id="lk.adspace.jaffnatemples/Dbhandler@dbhand+lk.adspace.jaffnatemples/Db_results@|lk.adspace.jaffnatemples/Db_results#" attachSource="true" roleLabel="//@children.5/@sourceConnections.0/@children.1/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" location="402,201" size="0,14" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="dbhand" location="137,201" id="lk.adspace.jaffnatemples/Dbhandler@dbhand+lk.adspace.jaffnatemples/Db_results@|lk.adspace.jaffnatemples/Dbhandler#dbhand" multiplicityLabel="//@children.5/@sourceConnections.0/@children.2/@children.1" roleLabel="//@children.5/@sourceConnections.0/@children.2/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" ~ dbhand" location="219,192" size="48,14" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="219,220" size="6,14" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="lk.adspace.jaffnatemples/Db_results$Temple_Adapter@tAdapter+lk.adspace.jaffnatemples/Db_results@this$0" source="//@children.5" target="//@children.5/@children.2/@children.0" targetEnd="//@children.5/@sourceConnections.1/@children.2" label="//@children.5/@sourceConnections.1/@children.0" sourceEnd="//@children.5/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="this$0" location="205,323" id="lk.adspace.jaffnatemples/Db_results$Temple_Adapter@tAdapter+lk.adspace.jaffnatemples/Db_results@this$0|lk.adspace.jaffnatemples/Db_results#this$0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="tAdapter" location="0,10" id="lk.adspace.jaffnatemples/Db_results$Temple_Adapter@tAdapter+lk.adspace.jaffnatemples/Db_results@this$0|lk.adspace.jaffnatemples/Db_results$Temple_Adapter#tAdapter" multiplicityLabel="//@children.5/@sourceConnections.1/@children.2/@children.1" roleLabel="//@children.5/@sourceConnections.1/@children.2/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" ~ tAdapter" location="348,298" size="54,14" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="384,326" size="18,14" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="lk.adspace.jaffnatemples/Viewmap@viewmap+lk.adspace.jaffnatemples/Db_results@db_results" source="//@children.5" target="//@children.3" targetEnd="//@children.5/@sourceConnections.2/@children.1" label="//@children.5/@sourceConnections.2/@children.2" sourceEnd="//@children.5/@sourceConnections.2/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="db_results" location="215,19" id="lk.adspace.jaffnatemples/Viewmap@viewmap+lk.adspace.jaffnatemples/Db_results@db_results|lk.adspace.jaffnatemples/Db_results#db_results" attachSource="true" multiplicityLabel="//@children.5/@sourceConnections.2/@children.0/@children.1" roleLabel="//@children.5/@sourceConnections.2/@children.0/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - db_results" location="621,220" size="61,14" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="621,248" size="18,14" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="viewmap" location="0,191" id="lk.adspace.jaffnatemples/Viewmap@viewmap+lk.adspace.jaffnatemples/Db_results@db_results|lk.adspace.jaffnatemples/Viewmap#viewmap" multiplicityLabel="//@children.5/@sourceConnections.2/@children.1/@children.1" roleLabel="//@children.5/@sourceConnections.2/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - viewmap" location="603,220" size="54,14" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="639,248" size="18,14" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.5/@sourceConnections.0 //@children.2/@sourceConnections.0" name="Dbhandler" location="75,12" size="137,211" id="lk.adspace.jaffnatemples/Dbhandler" runTimeClassModel="collect(Ljava.lang.String;Ljava.lang.String;),onCreate(Landroid.database.sqlite.SQLiteDatabase;),Add_Temple(Llk.adspace.jaffnatemples.kovil;),Get_Temple(I),Get_Total_Temple(),collecting(Ljava.lang.String;I),Get_Temple(Ljava.lang.String;I),onUpgrade(Landroid.database.sqlite.SQLiteDatabase;II),Dbhandler(Landroid.content.Context;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="114,162">
+      <children xsi:type="editmodel:MethodEditModel" name="Add_Temple" id="lk.adspace.jaffnatemples/Dbhandler#Add_Temple(Llk.adspace.jaffnatemples.kovil;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Dbhandler" id="lk.adspace.jaffnatemples/Dbhandler#Dbhandler(Landroid.content.Context;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Get_Temple" id="lk.adspace.jaffnatemples/Dbhandler#Get_Temple(Ljava.lang.String;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Get_Temple" id="lk.adspace.jaffnatemples/Dbhandler#Get_Temple(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Get_Total_Temple" id="lk.adspace.jaffnatemples/Dbhandler#Get_Total_Temple()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="collect" id="lk.adspace.jaffnatemples/Dbhandler#collect(Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="collecting" id="lk.adspace.jaffnatemples/Dbhandler#collecting(Ljava.lang.String;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onCreate" id="lk.adspace.jaffnatemples/Dbhandler#onCreate(Landroid.database.sqlite.SQLiteDatabase;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onUpgrade" id="lk.adspace.jaffnatemples/Dbhandler#onUpgrade(Landroid.database.sqlite.SQLiteDatabase;II)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="lk.adspace.jaffnatemples/kovil@temple_list+lk.adspace.jaffnatemples/Dbhandler@" source="//@children.6" target="//@children.4" targetEnd="//@children.6/@sourceConnections.0/@children.2" label="//@children.6/@sourceConnections.0/@children.0" sourceEnd="//@children.6/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="68,211" id="lk.adspace.jaffnatemples/kovil@temple_list+lk.adspace.jaffnatemples/Dbhandler@|lk.adspace.jaffnatemples/Dbhandler#" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="temple_list" location="76,0" id="lk.adspace.jaffnatemples/kovil@temple_list+lk.adspace.jaffnatemples/Dbhandler@|lk.adspace.jaffnatemples/kovil#temple_list" multiplicityLabel="//@children.6/@sourceConnections.0/@children.2/@children.1" roleLabel="//@children.6/@sourceConnections.0/@children.2/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - temple_list" location="150,249" size="60,14" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="132,249" size="4,14" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" level="-1" showScope="InPackage" properties="wireOptions=3;Product=eUML2"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>

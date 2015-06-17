@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ASCII"?>
+<options:CycleExplorerData xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:options="options.xmi">
+  <options interactive="false" level="-1" showScope="InDiagram" properties="ModelFrozen=true;wireOptions=4;Product=eDepend;ComputedContent=true;dependencyFilter=Standard::Derive,Soyatec::Implement,Standard::Instantiate,Standard::Create,Standard::Call,Standard::Send,Soyatec::Access,Soyatec::Import,;displayOptions=1"/>
+  <cycleSets>
+    <groups name="Cycle-1  (2 elements)" size="2">
+      <ids>lk.adspace.jaffnatemples/Search_result-Soyatec::Import->lk.adspace.jaffnatemples/Search</ids>
+      <ids>lk.adspace.jaffnatemples/Search-Soyatec::Import->lk.adspace.jaffnatemples/Search_result</ids>
+    </groups>
+    <groups name="Cycle-2  (2 elements)" size="2">
+      <ids>lk.adspace.jaffnatemples/Dbhandler-Soyatec::Import->lk.adspace.jaffnatemples/Search_result</ids>
+      <ids>lk.adspace.jaffnatemples/Search_result-Soyatec::Import->lk.adspace.jaffnatemples/Dbhandler</ids>
+    </groups>
+  </cycleSets>
+  <cycleSets>
+    <groups name="Cycle-3  (2 elements)" size="2">
+      <ids>lk.adspace.jaffnatemples/Db_results-Soyatec::Import->lk.adspace.jaffnatemples/Viewmap</ids>
+      <ids>lk.adspace.jaffnatemples/Viewmap-Soyatec::Import->lk.adspace.jaffnatemples/Db_results</ids>
+    </groups>
+  </cycleSets>
+</options:CycleExplorerData>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="start_Location"><item>1</item></array>
+    <array name="distance_search">&lt;item&gt;1&lt;/item&gt;</array>
+</resources>
